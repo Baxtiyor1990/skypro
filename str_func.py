@@ -1,4 +1,5 @@
 
+
 def convert_to_uppercase(input_str):
     """
     Converts the input string to uppercase.
@@ -26,3 +27,4 @@ def capitalize_first_letters(input_str):
     words = input_str.split()
     capitalized_words = [word.capitalize() for word in words]
     return ' '.join(capitalized_words)
+
